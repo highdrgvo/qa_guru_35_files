@@ -15,8 +15,11 @@ dependencies {
     testImplementation 'commons-io:commons-io:2.18.0'
     testImplementation 'com.codeborne:pdf-test:1.5.0'
     testImplementation 'com.codeborne:xls-test:1.4.3'
-    testImplementation 'com.opencsv:opencsv:5.10'
-    testImplementation 'com.google.code.gson:gson:2.10.1'
+    testImplementation 'com.fasterxml.jackson.core:jackson-core:2.13.1'
+    testImplementation 'com.fasterxml.jackson.core:jackson-annotations:2.13.1'
+    testImplementation 'com.fasterxml.jackson.core:jackson-databind:2.14.1'
+    testImplementation 'com.google.code.gson:gson:2.11.0'
+    testImplementation 'com.opencsv:opencsv:5.11'
 
 }
 
